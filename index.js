@@ -31,5 +31,5 @@ app.get('/package',(req,res)=>{
   res.jspn(package)
 })
 app.listen(process.env.PORT, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`Server is running at http://localhost:${port}`)
 })
